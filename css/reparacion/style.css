@@ -1,0 +1,138 @@
+body {padding:0; margin:0; color:#000000; background-color:#000000}
+body, td {font-family:Tahoma; font-size:11px; }
+br{font-size:10px}
+
+/* Estilos de la botonera superior*/
+.header{color:#1A5583; font-size:11px; line-height:13px} 
+.header a{color:#CCCCCC; text-decoration:none} 
+.header a:hover{text-decoration:underline} 
+
+.menu{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px; line-height:13px;} 
+.menu div a{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px;} 
+.menu div a:hover{color:#FF6F00; text-decoration:none;} 
+
+.menu a{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px;} 
+.menu a:hover{color:#FF6F00; text-decoration:none;} 
+
+.content td{color:#CCCCCC; font-size:11px; line-height:13px} /*Estilo de los td's*/
+.content td font{color:#FFFFFF; font-family:Tahoma; font-size:2px;}
+
+.content b{color:#FFFFFF; text-transform:uppercase} 
+.content b a{color:#FFFF00; text-decoration:underline; font-weight:normal; text-transform:none} 
+.content b a:hover{text-decoration:none} 
+
+.content a{color:#8E9499; text-decoration:underline} /*Maneja el color de los links*/
+.content a:hover{text-decoration:none} 
+
+.content a span{color:#FF0000; text-decoration:underline} /*Maneja el color de los info*/
+.content a b{font-family:Tahoma; color:#FFFF00; text-decoration:underline; font-size:10px} /*Maneja el color de los trabajos especiales*/
+
+.content a b:hover{text-decoration:none} 
+
+.content .block{color:#74797D; font-size:10px; line-height:13px}
+.content .block a{color:#74797D; text-decoration:none}
+.content .block a:hover{text-decoration:underline} 
+
+.content .block1 b a{color:#74797D; font-size:11px; text-decoration:none; font-weight:bold}
+.content .block1 b a:hover{text-decoration:underline} 
+.content .block1 a{color:#74797D; font-size:11px; text-decoration:underline}
+.content .block1 a:hover{text-decoration:none} 
+
+.content .block2 a{color:#FF0000; font-size:11px; text-decoration:underline}
+.content .block2 a:hover{text-decoration:none} 
+
+.footer{color:#8E9499; font-size:11px; line-height:13px} 
+.footer div a{color:#8E9499; font-size:11px; text-decoration:underline} 
+.footer div a:hover{text-decoration:none} 
+
+.footer a{color:#2D3032; font-size:11px; text-decoration:underline} 
+.footer a:hover{text-decoration:none} 
+
+input,textarea{
+   background:#FFFFFF;
+   border:1px solid #464646;
+   font-family:Tahoma;
+   color:#4A4F54; 
+   font-size:11px;
+   padding-left:5px
+} 
+/* Texto Reparacion*/
+.reparacion td{color:#CCCCCC; font-size:12px; line-height:13px}
+.reparacion b{color:#FFFFFF; text-transform:uppercase} 
+.reparacion a span{color:#FF0000; text-decoration:underline; font-size:10px} /*Maneja el color de los info*/
+.reparacion span{color:#FFFF00; font-size:12px} /*Maneja el color de los trabajos especiales*/
+
+/* Textos Trabajos especiales*/
+.trabajo-texto{
+     color:#FFFFFF; 
+	 font-size:10px
+} 
+
+/* Textos Pintura a fuego*/
+.especial-texto{
+     font-size:11px;
+     color:#FFFFFF;
+	 font-family:Tahoma;
+ 	 text-align:center;
+} 
+.pintura-texto{
+     font-size:11px;
+     color:#FFFF66;
+	 font-family:Tahoma;
+	 text-align:lefth;
+}
+/* Textos popup */
+.popup-texto{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#FFFFFF;
+}
+.popup-link{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#FF0000;
+	text-decoration:none;	
+}
+.popup-link:hover{
+	text-decoration:underline;
+}
+.popup-titulo{
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.popup-texto2{
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+
+.popup-titulo2{
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	color:#FF0000;
+}
+.oferta3 {
+    font-family:arial;
+	font-size: 15px;
+	font-weight: bold;
+	color:#ffffff;
+}
+.style3 {
+	font-family: Verdana;
+	font-size: xx-small;
+	color: #FFCF00;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.ofertat {
+    font-family:arial Black;
+	font-size: 24px;
+	font-weight: bold;
+	color:#ffffff;
+}

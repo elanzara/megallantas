@@ -1,0 +1,2 @@
+<a href="../productos/imagenes/adrive01.gif" class="highslide" onclick="return hs.expand(this, { captionOverlay: { position: 'rightpanel', width: '290px'} })" id="thumb57"> 
+<img src="../productos/ewbv6.php?fn=.%2Fimagenes%2Fadrive01_small.gif&width=0&height=145" alt="Yokoyama - A Drive / Pulsa la foto para agrandarla" title="Yokoyama - A Drive / Pulsa la foto para agrandarla" /></a><br><b><i><font face="Arial" size="2" color="#FFFFFF">A Drive</font></i></b><br><img src="../imagenes/viejo.gif"> 

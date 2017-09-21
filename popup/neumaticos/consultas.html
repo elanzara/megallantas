@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Todo para el Automotor - Megallantas Argentina</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<META NAME="Keywords" CONTENT="reparacion,ventas,gomerias, gomeria, goma, llanta,warnes, reparaciondellantas, reparacionllantas,moron,llantas,mega,megallantas,deportivas, 
+originales,nuevas,usuadas,moron,reparacion,ventas,llantas,mega,megallantas,deportivas, aleacion, aluminio, rayos, chapa, centrado, golpe, agujeros, cromado, darck, gloss, 
+gool, pintado, dorado, momo, magnels, tsw, ruedas, argentina, cron, lux, gris, laqueado, bsa, vaska, tvw, auto, camioneta, touning, sportiva, 
+chome, look, ,hiperplata, centro, rim, ford, vw, citroen, audi, mercedez, benz, fiat, toyota, renault, honda, civic, 206, c3, golf, fox, corsa, 
+palio, fiat,uno, gol, chome,look, bmw, originales, ruedas, kromma,originales,nuevas,usuadas,diamante, diamantado">
+<META NAME="Description" CONTENT="reparacion de llantas,venta de llantas,reparacion llantas,venta llantas,Reparacin y venta de llantas Deportivas y Originales Nuevas y Usadas,
+, Reparacion y venta de llantas, venta de llantas, deportivas y originales nuevas y usadas, centrado de llantas, centrado y 
+pintado de llantas, reparacion de llantas de chapa, reparacion de llantas de aluminio, centrado en el momento de llantas, llantas deportivas 
+reparacion, llantas de chapa reparacion, llantas de aluminio, pintura de llantas darck gloos, pintura de llanta de chapa, pintura hipr plata, 
+pintura chrome look, pintura y diamantado de llantas, diamantado y laqueado de llantas, llantas magnels, llantas tsw, llantas tvw, llantas 
+ruedas argentinas, ruedas argentinas, llantas originales, llantas cromadas, llantas reparadas a nuevo, como se repara una llanta, conviene 
+reparar las llantas, neumaticos rosmi, neumaticos jose, neumaticos ruben, coscolla, mundo ruedas, multiruedas, auto touning, space touning">
+<META NAME="Title" CONTENT="megallantas Capital Federal">
+<META NAME="Author" CONTENT="VGT Web - Servicios de Internet.  ">
+<META NAME="Subject" CONTENT="Todo para el Automotor">
+
+<link href="../../css/neumaticos/style.css" rel="stylesheet" type="text/css">
+
+<script>
+function checkForm(objForm){
+	var arClass, bValid;
+	var objField = objForm.getElementsByTagName('*');
+	var msg = 'Error, por favor complete los siguientes campos: \n';
+	var err = false;
+
+	//recorre todos los elementos del formulario
+	for (var iFieldCounter=0; iFieldCounter<objField.length; iFieldCounter++){
+		arClass = objField[iFieldCounter].className.split(' ');
+		for (var iClassCounter=0; iClassCounter<arClass.length; iClassCounter++)
+		{
+			switch (arClass[iClassCounter]){
+				case 'string':
+				   bValid = esString(objField[iFieldCounter].value.replace(/^\s*|\s*$/g, '')) && !esStringBlanco(objField[iFieldCounter].value.replace(/^\s*|\s*$/g, ''));
+				   break;
+				case 'number' :
+				   bValid = esInt(objField[iFieldCounter].value);
+				   break;
+				case 'mail' :
+				   bValid = esEmail(objField[iFieldCounter].value);
+				     break;
+				default:
+				   bValid = true;
+			}
+			if (!bValid){
+				//ERROR
+				msg = msg + '- ' + objField[iFieldCounter].getAttribute('pantalla') + '\n';
+				err = true;
+			}
+		}
+	}
+	if (!err){
+		return true;
+	}else{
+		alert(msg);
+		return false;
+	}
+}
+function esString(strValue){
+  return (typeof strValue == 'string' && strValue != '' && isNaN(strValue));
+}
+function esEmail(valor){
+	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(valor)){
+		return (true)
+	}else{
+		return (false);
+ 	}
+}
+function esStringBlanco(str){
+	var espacios = true;
+	var cont = 0;
+	while(espacios && (cont < str.length)){
+	  if(str.charAt(cont) != " ") {
+	    espacios = false;
+	  }
+	  cont++;
+	}
+
+	return espacios;
+}
+function esInt(str){
+	var i = parseInt(str);
+	if(isNaN(i)) return false;
+
+	i = i.toString();
+	if(i != str) return false;
+
+	return true;
+}
+function alerta(txt){
+	alert(txt);
+}
+
+function post(){
+	var validarForm = document.getElementById("consultasForm");
+	if(checkForm(validarForm)) {
+		//envia parametro de posteo
+		validarForm.action = "contact.php";
+		validarForm.submit();
+	}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" border="0"  align="center" style="width:420px; height:00px" class="content">
+  <tr>
+    <td>
+      <div style="margin:10 0 0 10px">          
+	   <table border="0" width="100%"  cellpadding="4">
+           <tr>
+  	     <td valign="top" width="164" height="217" class="block2">
+		<img src="../../images/neumaticos/6_w3.gif" style="margin-top:3px" alt="" border="0">
+		<form name="consultasForm" id="consultasForm" style="margin:0; padding:0" method="post">
+		<div style="margin:20 0 0 7px ">
+        <b>Nombre</b><br>
+		<input name="nombre" type="text" id="nombre" style=" width:258px; height:20px;" class="string" Pantalla="Nombre">
+		<br>
+		<br style="line-height:5px ">
+        <b>e-mail</b><br>
+		<input name="email" type="text" id="email" style=" width:258px; height:20px;" class="mail" Pantalla="E-mail">
+		<br>
+		<br style="line-height:5px ">
+	        <b>Tu Consulta</b><br>
+			<textarea name="consulta" cols="35" rows="35" id="consulta" style=" width:258px; height:202px; overflow:hidden" class="string" Pantalla="Consulta"></textarea>
+	        <input name="destinatario" type="hidden" value="info@megallantas.com.ar">
+	        <input name="asunto" type="hidden" value="Nueva Consulta desde Todo para el Automotor - Megallantas">
+		<br style="line-height:11px ">
+		<a href="#" onClick="document.getElementById('form').reset()"> Borrar</a><img src="../../images/neumaticos/1_z1.gif" style="margin-right:9px; margin-left:15px " alt="" border="0"><a href="#" onclick="post();">Enviar</a></div>
+		</form>
+	    </td>
+		<td valign="top" width="164" height="217" class="block2">
+												<img src="../../images/neumaticos/6_w1.gif" style="margin-top:3px" alt="" border="0">											  <div style="margin:20 0 10 7px ">													
+													<span class="popup-titulo2">Todo para el Automotor<br></span>
+													<span align="center" class="popup-titulo2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Megallantas.</span>
+													<br><br>
+													<span align="right" class="oferta6" >Chacarita</span><br>
+													<br>
+													<span class="popup-texto2">
+													C&eacute;spedes 3823,<br><br>
+													Capital Federal, 1427.</span>
+													<a href="#"  onClick="MM_openBrWindow('comollegar.html','','width=610,height=435')"><br><span>+Ver Mapa</span></a><br>
+													<br style="line-height:15px">													 
+													<span class="popup-texto2">Tel&eacute;fono<br><br>
+													+54 11 4555 0344
+													<br>Radio:&nbsp;597*1138												
+													
+													<br style="line-height:15px"><br>
+													Horarios de Atenci&oacute;n<br><br>
+                                                                              Lunes a Viernes<br>
+													08:00 a 19:00 Hs<br><br>
+                                                                              Sabados<br>
+  													08:00 a 14:00 Hs
+													</span> </div>
+											</td>
+	 </tr>
+	 
+        </table>
+       </div>
+    </td>
+ </tr>
+</table>
+</body>
+</html>

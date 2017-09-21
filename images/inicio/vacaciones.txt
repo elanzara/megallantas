@@ -1,0 +1,9 @@
+<tr>
+                                                        <div style="margin:9 0 0 20px ">
+                                                          <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="600" height="75">
+                                                          <param name="movie" value="../images/reparacion/vacaciones.swf">
+                                                          <param name="quality" value="high">
+                                                          <embed src="../images/reparacion/vacaciones.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="600" height="75"></embed>
+                                                          </object>                                              
+                                                 	</div>											    
+                                                       </tr>		

@@ -1,0 +1,275 @@
+.highslide {
+	cursor: url(highslide/graphics/zoomin.cur), pointer;
+    outline: none;
+}
+.highslide img {
+	border: 2px solid black;
+}
+:hover.highslide img {
+	border: 2px solid #red;
+}
+ 
+.highslide-image {
+	border: 5px solid #444444;
+}
+.highslide-image-blur {
+}
+.highslide-caption {
+    display: none;
+    
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 10pt;
+    border: 5px solid #444444;
+    border-top: none;
+    padding: 5px;
+    background-color: gray;
+}
+.highslide-loading {
+    display: block;
+	color: white;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+    text-decoration: none;
+	padding: 3px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+    background-color: black;
+    /*
+    padding-left: 22px;
+    background-image: url(http://www.megallantas.com.ar/neumaticos/highslide/graphics/loader.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+    */
+}
+a.highslide-credits,
+a.highslide-credits i {
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+	font-size: 10px;
+}
+a:hover.highslide-credits, a:hover.highslide-credits i {
+    color: white;
+    background-color: gray;
+}
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
+#sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none;}
+#sb-overlay{position:relative;height:100%;width:100%;}
+#sb-wrapper{position:absolute;visibility:hidden;width:100px;}
+#sb-wrapper-inner{position:relative;border:1px solid #303030;overflow:hidden;height:100px;}
+#sb-body{position:relative;height:100%;}
+#sb-body-inner{position:absolute;height:100%;width:100%;}
+#sb-player.html{height:100%;overflow:auto;}
+#sb-body img{border:none;}
+#sb-loading{position:relative;height:100%;}
+#sb-loading-inner{position:absolute;font-size:14px;line-height:24px;height:24px;top:50%;margin-top:-12px;width:100%;text-align:center;}
+#sb-loading-inner span{background:url(loading.gif) no-repeat;padding-left:34px;display:inline-block;}
+#sb-body,#sb-loading{background-color:#060606;}
+#sb-title,#sb-info{position:relative;margin:0;padding:0;overflow:hidden;}
+#sb-title,#sb-title-inner{height:26px;line-height:26px;}
+#sb-title-inner{font-size:16px;}
+#sb-info,#sb-info-inner{height:20px;line-height:20px;}
+#sb-info-inner{font-size:12px;}
+#sb-nav{float:right;height:16px;padding:2px 0;width:45%;}
+#sb-nav a{display:block;float:right;height:16px;width:150px;margin-left:3px;cursor:pointer;background-repeat:no-repeat;}
+#sb-nav-close{background-image:url(close.png);}
+#sb-nav-next{background-image:url(next.png);}
+#sb-nav-previous{background-image:url(previous.png);}
+#sb-nav-play{background-image:url(play.png);}
+#sb-nav-pause{background-image:url(pause.png);}
+#sb-counter{float:left;width:45%;}
+#sb-counter a{padding:0 4px 0 0;text-decoration:none;cursor:pointer;color:#fff;}
+#sb-counter a.sb-counter-current{text-decoration:underline;}
+div.sb-message{font-size:12px;padding:10px;text-align:center;}
+div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
+.Estilo1 {
+	font-size: 10px
+}
+.Estilo2 {font-size: 10px; font-weight: bold; }
+.Estilo3 {color: #FF0000}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style3 {
+	font-family: Verdana;
+	font-size: xx-small;
+	color: #FFCF00;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.style4 {
+	border-width: 0px;
+}
+.style5 {
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: xx-small;
+}
+.style6 {
+	text-align: right;
+}
+.style7 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+.style8 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.style9 {color: #FFFFFF;
+	font-family: Arial;
+	font-size: xx-small;}
+.style9 a{color: #FFFFFF;
+	font-family: Arial;
+	font-size: xx-small;}
+.style9 a:hover{color:#FF6F00; text-decoration:none;} 
+
+.footer{color:#8E9499; font-size:11px; line-height:13px;} 
+.footer div a{color:#8E9499; font-size:11px; text-decoration:underline;} 
+.footer div a:hover{text-decoration:none;} 
+
+.footer a{color:#2D3032; font-size:11px; text-decoration:underline;} 
+.footer a:hover{text-decoration:none;} 
+
+body {padding:0; margin:0; color:#000000; background-color:#000000;}
+body, td {font-family:Tahoma; font-size:11px; }
+br{font-size:10px;}
+
+.avisos{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px; line-height:13px;} 
+.avisos div a{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px;} 
+.avisos div a:hover{color:#FF6F00; text-decoration:none;} 
+
+.avisos a{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px;} 
+.avisos a:hover{color:#FF6F00; text-decoration:none;} 
+
+.menu{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px; line-height:13px;} 
+.menu div a{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px;} 
+.menu div a:hover{color:#FF6F00; text-decoration:none;} 
+
+.menu a{color:#FFCF00; font-weight: bold; font-family: Arial; font-size:11px;} 
+.menu a:hover{color:#FF6F00; text-decoration:none;} 
+
+/* Estilos de la botonera superior*/
+.header{color:#1A5583; font-size:11px; line-height:13px} 
+.header a{color:#CCCCCC; text-decoration:none} 
+.header a:hover{text-decoration:underline} 
+
+.content td{color:#CCCCCC; font-size:11px; line-height:13px} /*Estilo de los td's*/
+.content td font{color:#FFFFFF; font-family:Tahoma; font-size:2px;}
+
+.content b{color:#FFFFFF; text-transform:uppercase} 
+.content b a{color:#FFFF00; text-decoration:underline; font-weight:normal; text-transform:none} 
+.content b a:hover{text-decoration:none} 
+
+.content a span{color:#FF0000; text-decoration:underline} /*Maneja el color de los info*/
+.content a b{font-family:Tahoma; color:#FFFF00; text-decoration:underline; font-size:10px} /*Maneja el color de los trabajos especiales*/
+
+.content a b:hover{text-decoration:none} 
+
+.content .block{color:#74797D; font-size:10px; line-height:13px}
+.content .block a{color:#74797D; text-decoration:none}
+.content .block a:hover{text-decoration:underline} 
+
+.content .block1 b a{color:#74797D; font-size:11px; text-decoration:none; font-weight:bold}
+.content .block1 b a:hover{text-decoration:underline} 
+.content .block1 a{color:#74797D; font-size:11px; text-decoration:underline}
+.content .block1 a:hover{text-decoration:none} 
+
+.content .block2 a{color:#FF0000; font-size:11px; text-decoration:underline}
+.content .block2 a:hover{text-decoration:none} 
+
+/* Textos popup */
+.popup-texto{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#FFFFFF;
+}
+.popup-link{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#FF0000;
+	text-decoration:none;	
+}
+.popup-link:hover{
+	text-decoration:underline;
+}
+.popup-titulo{
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.popup-texto2{
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+
+.popup-titulo2{
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	color:#FF0000;
+}
+.ofertat {
+    font-family:arial Black;
+	font-size: 24px;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+.oferta1 {
+	text-align: center;
+	font-weight: bold;
+	background-color: #FF0000;
+}
+.oferta2 {
+	background-color: #FF0000;
+	text-align: center;
+}
+.oferta3 {
+    font-family:arial;
+	font-size: 15px;
+	font-weight: bold;
+	color:#ffffff;
+}
+.oferta4 {
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-right: 2px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom: 2px solid #C0C0C0;
+}
+.oferta5 {	
+	text-align: center;
+}
+
+.oferta6 {
+    font-family:arial;
+	font-size: 15px;
+	font-weight: bold;
+	color:#FF9A00;
+}
